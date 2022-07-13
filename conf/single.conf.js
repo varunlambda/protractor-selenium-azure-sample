@@ -10,7 +10,7 @@ exports.config = {
   'capabilities': {
     'build': 'protractor-LambdaTest-Single',
     'browserName': 'chrome',
-    'version':'67.0',
+    'version':'latest',
     'platform': 'WIN10',
     'video': true,
     'network': true,

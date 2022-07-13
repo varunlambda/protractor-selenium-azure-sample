@@ -14,23 +14,23 @@ exports.config = {
 
   'multiCapabilities': [{
     'browserName': 'Chrome',
-    'version':'67.0',
+    'version':'latest',
     'platform': 'WIN10'
   },{
     'browserName': 'Safari',
-    'version':'11.1',
+    'version':'latest',
     'platform': 'macOS 10.12'
   },{
     'browserName': 'Edge',
-    'version':'15.0',
+    'version':'latest',
     'platform': 'WIN10'
   },{
     'browserName': 'Firefox',
-    'version':'62.0',
+    'version':'latest',
     'platform': 'WIN10'
   },{
     'browserName': 'Internet explorer',
-    'version':'10.0',
+    'version':'latest',
     'platform': 'WIN10'
   }],
 
