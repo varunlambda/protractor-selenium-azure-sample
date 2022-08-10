@@ -18,6 +18,10 @@ steps:
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
+- task: configuration@1
+  inputs:
+    connection: 'AZ-Varun'
+    isTunnelActivate: true
 
 - script: |
     npm install
@@ -25,3 +29,5 @@ steps:
     cd conf
     protractor single.conf.js
   displayName: 'npm install and build'
+
+- task: LambdatestResults@1
