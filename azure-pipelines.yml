@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'ubuntu-22.04'
 
 variables:
   LT_USERNAME: 'varunkumarb'
